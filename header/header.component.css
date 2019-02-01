@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the header */
+header {
+ background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
