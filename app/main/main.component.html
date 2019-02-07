@@ -1,0 +1,9 @@
+<html>
+  <form #f="ngForm" name="regForm" (submit)="registration(f)">
+    Name :<input type="text" id="name"  name="name" [(ngModel)]="student.name" ><br><br>
+    Pass :<input type="text" id="pass" name="pass" [(ngModel)]="student.pass"><br><br>
+    <input type="button" name="submit" value="Submit">
+    <input type="button" name="reset" value="Reset">
+  </form>
+</html>
+ 
